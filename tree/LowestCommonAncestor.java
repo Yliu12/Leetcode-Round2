@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 
-// TODO do it for binary search tree
 // https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem
+// https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree -- leetcode
 public class LowestCommonAncestor {
     public static Node lca(Node root, int v1, int v2) {
         LinkedList<Node> n1Path = new LinkedList<Node>();
