@@ -14,7 +14,7 @@ class DoublyLinkedListNode {
 
 function sortedInsert(llist: DoublyLinkedListNode, data: number): DoublyLinkedListNode {
     // Write your code here
-    if(llist.data>data){
+    if (llist.data > data) {
         const inserted = new DoublyLinkedListNode(data);
         inserted.next = llist;
         llist.prev = inserted;
@@ -35,3 +35,5 @@ function sortedInsert(llist: DoublyLinkedListNode, data: number): DoublyLinkedLi
     if (next) next.prev = inserted;
     return copy;
 }
+
+export { DoublyLinkedListNode }
