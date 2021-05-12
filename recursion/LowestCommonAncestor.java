@@ -7,9 +7,7 @@ class LowestCommonAncestor {
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode v1, TreeNode v2) {
         foundNode(root, v1);
-        while(!(foundOne && foundTwo)){
-
-        }
+        
     }
 
 
@@ -25,7 +23,7 @@ class LowestCommonAncestor {
         foundNode(root.right, v1, v2);
 
         if(foundOne && foundTwo){
-            
+
         }
         
     }
