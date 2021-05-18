@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
-        "recursion",
+        "trie",
         "tree",
+        "recursion",
         "ignore",
-        "trie"
+        "slidingwindow"
     ]
 }

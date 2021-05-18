@@ -1,11 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
-
+import java.util.*;
 class Runner {
 
     /*
@@ -31,8 +24,25 @@ class Runner {
         }
   
       }
-    public static void main(String[] args) {
-        Runner.fourthBit(90998);
 
+    public int[] twoSum(int[] nums, int target) {
+        HashMap<Integer, Integer> valIndexMap = new HashMap<>();
+         for(int i = 0; i < nums.length; i++) {
+            valIndexMap.put(nums[i], i);
+ 
+             int two = nums[i];
+             int one = target-two;
+ 
+             if(valIndexMap.get(one) != null){
+                 return new int[]{valIndexMap.get(one), i};
+             }
+ 
+        }
+         return new int[]{0, 0};
+ 
+     }
+     public static void main(String[] args) {
+        // new Runner().twoSum(new int[]{3,2,4}, 6);
+        // new Runner().lengthOfLongestSubstring("aabaab!bb");
     }
 }
