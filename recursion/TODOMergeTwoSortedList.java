@@ -1,3 +1,5 @@
+package recursion;
+
 // TODO recursion
 
 public class TODOMergeTwoSortedList {
@@ -52,6 +54,5 @@ public class TODOMergeTwoSortedList {
         SinglyLinkedListNode h2 = new SinglyLinkedListNode(2);
         h2.next = new SinglyLinkedListNode(4);
         h2.next.next = new SinglyLinkedListNode(5);
-        MergeTwoSortedList.mergeLists(h1, h2);
     }
 }

@@ -1,4 +1,5 @@
-https://www.hackerrank.com/challenges/insert-a-node-into-a-sorted-doubly-linked-list/problem
+
+// https://www.hackerrank.com/challenges/insert-a-node-into-a-sorted-doubly-linked-list/problem
 
 class DoublyLinkedListNode {
     data: number;

@@ -1,5 +1,10 @@
+package tree;
+
 import java.util.LinkedList;
 import java.util.Queue;
+
+import recursion.TreeNode;
+
 // https://leetcode.com/problems/validate-binary-search-tree/solution/
 public class ValidateBinarySearchTree {
     public int rootValue = 0;
@@ -8,7 +13,7 @@ public class ValidateBinarySearchTree {
         if (root == null)
             return true;
             LinkedList<TreeNode> queue = new LinkedList<TreeNode>();
-        queue.reverse()
+        // queue.reverse()
         inOrder(root, queue);
         while (!queue.isEmpty()) {
             int prev = queue.poll().val;

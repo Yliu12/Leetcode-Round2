@@ -1,4 +1,6 @@
 
+package tree;
+
 // https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem
 // 过不了tc是因为hackerrank有问题，不是我。
 public class LowestCommonBinarySearchTree {

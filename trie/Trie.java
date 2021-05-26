@@ -1,6 +1,6 @@
+package trie;
+
 import java.util.HashMap;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 class Trie {
     TrieNode root;

@@ -1,3 +1,5 @@
+package linkedlist;
+
 // https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists/problem
 // 平平无奇的小天才。我就是不用fast slow pointer.
 public class FindMergePoint {

@@ -1,3 +1,5 @@
+package linkedlist;
+
 public class GetNodeValue {
     public static int getNode(SinglyLinkedListNode head, int positionFromTail) {
         SinglyLinkedListNode copyHead = head;

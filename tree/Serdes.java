@@ -1,6 +1,10 @@
+package tree;
+
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
+
+import recursion.TreeNode;
 // https://leetcode.com/explore/learn/card/data-structure-tree/133/conclusion/995/
 public class Serdes {
 
@@ -29,8 +33,9 @@ public class Serdes {
 
         
     public boolean isSorted(LinkedList<TreeNode> list,TreeNode prev) {
+        return false;
         
-        list.getFirst()
+        // list.getFirst()
        
     }
 

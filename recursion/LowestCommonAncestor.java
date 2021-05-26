@@ -1,4 +1,6 @@
-// https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/
+package recursion;
+
+// TODO https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/
 
 class LowestCommonAncestor {
     public boolean foundOne = false;
@@ -6,7 +8,8 @@ class LowestCommonAncestor {
     public TreeNode node = null;
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode v1, TreeNode v2) {
-        foundNode(root, v1);
+        foundNode(root, v1, v2);
+        return v2;
         
     }
 
@@ -25,6 +28,7 @@ class LowestCommonAncestor {
         if(foundOne && foundTwo){
 
         }
+        return foundOne;
         
     }
 }

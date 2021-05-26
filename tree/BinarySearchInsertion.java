@@ -1,3 +1,5 @@
+package tree;
+
 public class BinarySearchInsertion {
 
     public static Node insert(Node root, int data) {

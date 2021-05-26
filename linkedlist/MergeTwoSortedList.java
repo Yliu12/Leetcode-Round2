@@ -1,3 +1,5 @@
+package linkedlist;
+
 public class MergeTwoSortedList {
     static SinglyLinkedListNode mergeLists(SinglyLinkedListNode h1, SinglyLinkedListNode h2) {
 

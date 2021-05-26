@@ -1,3 +1,5 @@
+package linkedlist;
+
 // https://www.hackerrank.com/challenges/detect-whether-a-linked-list-contains-a-cycle
 /*
 fast and slow pointer would eventulaly meet. 

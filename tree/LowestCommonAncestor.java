@@ -1,3 +1,5 @@
+package tree;
+
 import java.util.LinkedList;
 
 // https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem

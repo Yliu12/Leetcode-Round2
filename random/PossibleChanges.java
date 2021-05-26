@@ -1,13 +1,15 @@
+package random;
+
 import java.util.List;
 import java.util.stream.Collectors;
 
 class PossibleChanges {
  /*
-     * Complete the 'possibleChanges' function below.
-     *
-     * The function is expected to return a STRING_ARRAY.
-     * The function accepts STRING_ARRAY usernames as parameter.
-     */
+* Complete the 'possibleChanges' function below.
+*
+* The function is expected to return a STRING_ARRAY.
+* The function accepts STRING_ARRAY usernames as parameter.
+*/
 
     public static List<String> possibleChanges(List<String> usernames) {
         // Write your code here 

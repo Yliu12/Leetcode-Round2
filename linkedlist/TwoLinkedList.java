@@ -1,3 +1,4 @@
+package linkedlist;
 // https://www.hackerrank.com/challenges/compare-two-linked-lists/problem
 
 public class TwoLinkedList {

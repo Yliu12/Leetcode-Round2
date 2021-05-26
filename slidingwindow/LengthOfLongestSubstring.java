@@ -1,5 +1,7 @@
 package slidingwindow;
 
+import java.util.*;
+
 public class LengthOfLongestSubstring {
     public int lengthOfLongestSubstring(String s) {
         Map<Character, Integer> lastIndexMap = new HashMap<>();
