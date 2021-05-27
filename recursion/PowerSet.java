@@ -1,4 +1,4 @@
-package random;
+package recursion;
 
 import java.util.*;
 
