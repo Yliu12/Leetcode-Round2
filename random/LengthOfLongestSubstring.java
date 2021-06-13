@@ -1,4 +1,4 @@
-package slidingwindow;
+package random;
 
 import java.util.*;
 
