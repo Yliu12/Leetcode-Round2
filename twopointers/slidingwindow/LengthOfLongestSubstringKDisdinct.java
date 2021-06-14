@@ -1,4 +1,4 @@
-package slidingwindow;
+package twopointers.slidingwindow;
 
 import java.util.*;
 
